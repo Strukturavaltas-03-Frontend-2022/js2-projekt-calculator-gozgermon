@@ -1,0 +1,83 @@
+.calc {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding: 20px;
+    border-color: silver;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#calc-input {
+    line-height: 50px;
+    box-sizing: border-box;
+    margin: 5px;
+    text-align: right;
+    font-size: 45px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    /*height: 600px;*/
+    background-color: white
+}
+
+.NonEqual {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+}
+
+.Equal {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+}
+
+.tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 150px;
+    height: 100px;
+    background-color: rgb(220, 220, 220);
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.tile-dark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 150px;
+    height: 100px;
+    background-color: silver;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+}
+
+
+.tile-equal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 150px;
+    height: 400px;
+    background-color: lightblue;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.mark {
+    font-size: 50px;
+
+
+}
